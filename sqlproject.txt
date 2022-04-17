@@ -1,0 +1,13 @@
+ALTER TABLE `store`.`products` 
+CHANGE COLUMN `created_at` `created_at` DATETIME NOT NULL DEFAULT 2022-11-11 13:23:44
+ ;
+
+ /*products*/
+/*ALTER TABLE users
+ADD CONSTRAINT gende CHECK (gender(  'm' , 'f')); */
+
+ select * from products ;
+ 
+  
+  /* FOREIGN KEY (PersonID) REFERENCES Persons(PersonID) */
+
